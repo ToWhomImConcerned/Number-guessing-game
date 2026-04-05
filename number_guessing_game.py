@@ -16,7 +16,7 @@ def set_difficulty(difficulty):
         time_limit = 45
     elif difficulty == "hardcore":
         max_number = 250
-        max_attempts = 8
+        max_attempts = 5
         time_limit = 30
     else:
         print("Invalid choice, defaulting to easy.")
